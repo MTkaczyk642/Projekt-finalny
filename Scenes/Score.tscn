@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+
+[node name="Score" type="CanvasLayer"]
+script = SubResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 892.369
+margin_right = 1022.37
+margin_bottom = 40.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
+tab_size = 6
+text = "LEVEL SCORE: "
+__meta__ = {
+"_edit_use_anchors_": false
+}
